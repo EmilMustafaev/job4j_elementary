@@ -16,10 +16,10 @@ class RectangleAreaTest {
     }
 
     @Test
-    void whenP35K6Square37Dot5() {
-        double expected = 37.5;
+    void whenP35K6Square33Dot49() {
+        double expected = 33.49;
         int p = 35;
-        double k = 6;
+        double k = 7;
         double output = RectangleArea.square(p, k);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
