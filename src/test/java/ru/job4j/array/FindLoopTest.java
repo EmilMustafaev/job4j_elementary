@@ -26,11 +26,11 @@ class FindLoopTest {
     }
 
     @Test
-    void whenArrayHas15Then3() {
-        int[] data = new int[]{55, 32, 44, 15};
-        int element = 15;
+    void whenArrayHas23Then4() {
+        int[] data = new int[]{55, 32, 44, 15, 23};
+        int element = 23;
         int result = FindLoop.indexOf(data, element);
-        int expected = 3;
+        int expected = 4;
         assertThat(result).isEqualTo(expected);
     }
 }
